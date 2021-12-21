@@ -439,3 +439,62 @@ a:link, a:visited {
     color: #0175b2;
     margin-bottom: 10px;
 }
+
+.myDIV:hover + .hide {
+    display: block;
+    color: rgb(187, 236, 240);
+  }
+
+  .hov{
+    background-color: #073b53;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+.hov .hide{
+    color: #073b53;
+    text-transform: uppercase;
+}
+
+.hov:hover, .hov:active {
+    background-color: #2D9CDB;
+    border-radius: 5%;
+    font-weight: bold;
+    color:black;
+  }
+
+  .time{
+    background-color: #073b53;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+
+.time:hover, .time:active {
+    background-color: #2D9CDB;
+    border-radius: 5%;
+    font-weight: bold;
+    color:black;
+  }
+  .button {
+    background-color: #073b53; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  .button:hover, .button:active {
+    background-color: #2D9CDB;
+    border-radius: 5%;
+    font-weight: bold;
+    color:black;
+  }
