@@ -498,3 +498,23 @@ a:link, a:visited {
     font-weight: bold;
     color:black;
   }
+.yth{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+    color: white;
+}
+
+.yt{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .yt iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
