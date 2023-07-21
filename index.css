@@ -66,6 +66,14 @@ body{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-bottom: 0.2rem;
+}
+.cert{
+    font-size: 0.7rem;
+    color: #5ad0ee;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     padding-bottom: 1rem;
 }
 
