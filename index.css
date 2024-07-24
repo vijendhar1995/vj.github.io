@@ -250,6 +250,19 @@ body{
     }
 }
 
+.masters-progress{
+    width: 76.11%;
+    animation: tech 10s;
+}
+@keyframes masters {
+    0%{
+        width: 0%;
+      }
+    100%{
+        width: 97%;
+    }
+}
+
 ul.a{
     
     line-height: 1.6rem;
