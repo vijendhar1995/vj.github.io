@@ -29,6 +29,7 @@ body{
     grid-column: span 5;
     background-color: #f7f7f7;
     height: 100%;
+    text-align: justify;
 }
 
 
