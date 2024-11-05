@@ -677,3 +677,43 @@ a:link, a:visited {
 .social-links i {
     transition: transform 0.3s ease;
 }
+
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    margin-bottom: 0.5rem;
+}
+
+.skill-title i {
+    font-size: 1.2rem;
+    color: #2D9CDB;
+    margin-right: 0.5rem; /* Adds spacing between the icon and text */
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #2f81ed5b;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #2D9CDB;
+    border-radius: 4px;
+    transition: width 1s ease;
+}
+
+.pega-progress { width: 95%; }
+.hc-progress { width: 75%; }
+.python-progress { width: 60%; }
+.xml-progress { width: 50%; }
+.ms-progress { width: 70%; }
+.office-progress { width: 80%; }
+
