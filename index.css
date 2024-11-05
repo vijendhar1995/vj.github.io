@@ -759,5 +759,34 @@ a:link, a:visited {
 }
 
 
+.certifications {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the images */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.certification-image {
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Makes the image round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.certification-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.certification-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
 
 
