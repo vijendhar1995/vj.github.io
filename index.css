@@ -35,22 +35,24 @@ body{
 .left-content{
     padding: 2rem 3rem;
 }
-.profile{
-    width: 100%;
-    border-bottom: 1px solid #002333;
-}
-
 .image {
     width: 100%;
     text-align: center;
 }
 
-.profile img {
-    width: 100%;
-    border-radius: 50%; /* This makes the image round */
+.image img {
+    width: 80%; /* Adjust this to control the size */
+    border-radius: 50%; /* Makes the image round */
     border: 8px solid #002333;
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.image img:hover {
+    transform: scale(1.1); /* Scale the image slightly on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
 
 .name{
     font-size: 1.6rem;
