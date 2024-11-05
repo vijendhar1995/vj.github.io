@@ -756,49 +756,49 @@ a:link, a:visited {
     vertical-align: middle;
 }
 
-.references-section {
+.refer-sec {
     text-align: center;
 }
 
-.pdf, .hov, .time {
-    width: 100px; /* Smaller width */
-    height: 100px; /* Smaller height */
+.circle-link {
+    width: 100px; /* Small width */
+    height: 100px; /* Small height */
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* Makes it circular */
+    border-radius: 50%; /* Circular shape */
     background-color: #073b53;
     margin: 1rem auto;
     transition: transform 0.3s ease, background-color 0.3s ease;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    font-size: 0.9rem; /* Smaller font size */
-    padding: 10px; /* Adjust padding to fit content */
+    font-size: 0.9rem;
     text-align: center;
+    padding: 10px;
 }
 
-.pdf a, .hov .myDIV, .time .button {
+.circle-link a, .circle-link .myDIV, .circle-link .button {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
 }
 
-.pdf:hover, .hov:hover, .time:hover {
+.circle-link:hover {
     background-color: #2D9CDB;
-    transform: scale(1.1); /* Slightly enlarges on hover */
+    transform: scale(1.1); /* Enlarges on hover */
 }
 
 .hide {
     display: none;
 }
 
-.hov:hover .hide {
+.circle-link:hover .hide {
     display: block;
     color: rgb(187, 236, 240);
 }
 
-.time button {
+.circle-link .button button {
     background-color: transparent;
     color: white;
     border: none;
@@ -806,7 +806,7 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-.time button:hover {
+.circle-link .button button:hover {
     color: #fffbff;
     transform: scale(1.1);
 }
@@ -817,3 +817,4 @@ a:link, a:visited {
     align-items: center;
     text-align: center;
 }
+
