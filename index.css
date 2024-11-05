@@ -716,4 +716,6 @@ a:link, a:visited {
 .xml-progress { width: 50%; }
 .ms-progress { width: 70%; }
 .office-progress { width: 80%; }
+.aws-progress { width: 60%; }       /* AWS progress */
+.devops-progress { width: 75%; } 
 
