@@ -710,44 +710,6 @@ a:link, a:visited {
     transition: width 1s ease;
 }
 
-.pega-progress { width: 95%; }
-.hc-progress { width: 75%; }
-.python-progress { width: 60%; }
-.xml-progress { width: 50%; }
-.ms-progress { width: 70%; }
-.office-progress { width: 80%; }
-.aws-progress { width: 60%; }       /* AWS progress */
-.devops-progress { width: 75%; } 
-/* Existing progress animations for other skills */
-@keyframes pega {
-    0% { width: 0%; }
-    100% { width: 95%; }
-}
-
-@keyframes hc {
-    0% { width: 0%; }
-    100% { width: 75%; }
-}
-
-@keyframes python {
-    0% { width: 0%; }
-    100% { width: 60%; }
-}
-
-@keyframes xml {
-    0% { width: 0%; }
-    100% { width: 50%; }
-}
-
-@keyframes ms {
-    0% { width: 0%; }
-    100% { width: 70%; }
-}
-
-@keyframes office {
-    0% { width: 0%; }
-    100% { width: 80%; }
-}
 
 /* New keyframes for AWS and DevOps */
 @keyframes aws {
@@ -760,36 +722,6 @@ a:link, a:visited {
     100% { width: 75%; }
 }
 
-/* Apply animations to respective progress bars */
-.pega-progress {
-    width: 95%;
-    animation: pega 2s ease-in-out forwards;
-}
-
-.hc-progress {
-    width: 75%;
-    animation: hc 2s ease-in-out forwards;
-}
-
-.python-progress {
-    width: 60%;
-    animation: python 2s ease-in-out forwards;
-}
-
-.xml-progress {
-    width: 50%;
-    animation: xml 2s ease-in-out forwards;
-}
-
-.ms-progress {
-    width: 70%;
-    animation: ms 2s ease-in-out forwards;
-}
-
-.office-progress {
-    width: 80%;
-    animation: office 2s ease-in-out forwards;
-}
 
 .aws-progress {
     width: 60%;
@@ -800,4 +732,12 @@ a:link, a:visited {
     width: 75%;
     animation: devops 2s ease-in-out forwards;
 }
+.pega-progress { width: 95%; }
+.hc-progress { width: 75%; }
+.python-progress { width: 60%; }
+.xml-progress { width: 50%; }
+.ms-progress { width: 70%; }
+.office-progress { width: 80%; }
+.aws-progress { width: 60%; }       /* AWS progress */
+.devops-progress { width: 75%; } 
 
