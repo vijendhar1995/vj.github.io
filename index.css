@@ -35,17 +35,21 @@ body{
 .left-content{
     padding: 2rem 3rem;
 }
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #002333;
+}
 
-.profile {
+.image {
     width: 100%;
     text-align: center;
 }
 
 .profile img {
-    width: 80%;
-    border-radius: 50%;
+    width: 100%;
+    border-radius: 50%; /* This makes the image round */
     border: 8px solid #002333;
-    margin-top: 1rem;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
 }
 
 .name{
