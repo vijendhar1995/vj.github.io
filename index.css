@@ -740,12 +740,13 @@ a:link, a:visited {
 .office-progress { width: 80%; }
 .aws-progress { width: 60%; }       /* AWS progress */
 .devops-progress { width: 75%; } 
+
 .skill-title {
     display: flex;
     align-items: center;
     font-size: 1rem;
     text-transform: uppercase;
-    color: #f7f7f7;
+    color: white;
     margin-bottom: 0.5rem;
 }
 
