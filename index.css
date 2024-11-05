@@ -756,3 +756,63 @@ a:link, a:visited {
     vertical-align: middle;
 }
 
+.references-section {
+    text-align: center;
+}
+
+.pdf, .hov, .time {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Makes it circular */
+    background-color: #073b53;
+    margin: 1rem auto;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pdf a, .hov .myDIV, .time .button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pdf:hover, .hov:hover, .time:hover {
+    background-color: #2D9CDB;
+    transform: scale(1.1); /* Slightly enlarges on hover */
+}
+
+.hide {
+    display: none;
+}
+
+.hov:hover .hide {
+    display: block;
+    color: rgb(187, 236, 240);
+}
+
+.time button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.time button:hover {
+    color: #fffbff;
+    transform: scale(1.1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
