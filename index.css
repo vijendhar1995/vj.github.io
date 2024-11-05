@@ -40,15 +40,16 @@ body{
     border-bottom: 1px solid #002333;
 }
 
-.image{
+.image {
     width: 100%;
     text-align: center;
 }
-.profile img{
-    width: 100%;
-    border-radius: 5%;
-    border: 8px solid #002333;
 
+.profile img {
+    width: 100%;
+    border-radius: 50%; /* This makes the image round */
+    border: 8px solid #002333;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
 }
 
 .name{
